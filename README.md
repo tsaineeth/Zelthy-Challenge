@@ -10,26 +10,26 @@ using smtplib library.
 
 #### class Email
 
-Created a class Email which uses utils_email.py to get the necesaary utilities for sending an email.
+* Created a class Email which uses utils_email.py to get the necesaary utilities for sending an email.
 Parameters
 
 ##### Parameters
 @:param: subject - str
 
-A string which describes the subject of the e-mail.
+* A string which describes the subject of the e-mail.
 
 @:param: body - str
 
-A string which describes the body of the e-mail.
+* A string which describes the body of the e-mail.
 
 @:param: subject - str
 
-A string which describes the recipient of the e-mail.
+* A string which describes the recipient of the e-mail.
 
 ##### Methods
 send_email()
 
-Builds a EmailMessage object and sends the email to recipient with provided subject and body.
+* Builds a EmailMessage object and sends the email to recipient with provided subject and body.
 
 ##
 ## Assignment - 2
@@ -41,23 +41,23 @@ in the terminal. (Use https://dictionaryapi.dev/)
 
 #### class Dictionary
 
-Created a class Dictionary which takes the word as an input and prints its part of speech and definition.
+* Created a class Dictionary which takes the word as an input and prints its part of speech and definition.
 
 #### Prerequisites 
-requirement.txt file consists the requirements for this class.
+* requirement.txt file consists the requirements for this class.
 
-Requires requests module to interact with the api.
+* Requires requests module to interact with the api.
 
 ##### Parameters
 @:param: query - @instr
 
-A string whose meaning need to be displayed.
+* A string whose meaning need to be displayed.
 
 ##### Methods
 search_dictionary()
 
-Queries the word using the dictionary api.
-Extracts Part of speech, meaning of the word.
+* Queries the word using the dictionary api.
+* Extracts Part of speech, meaning of the word.
 
 
 ##
@@ -69,46 +69,46 @@ latitude and longitude coordinates.
 ### Solution
 
 #### class Points
-Created a class Points which stores latitude and longitude of a place as an object.
+* Created a class Points which stores latitude and longitude of a place as an object.
 ##### Parameters
 
 @:param: latitude - str
 
-A string which consists of latitude.
+* A string which consists of latitude.
 
 @:param: longitude - str
 
-A string which consists of longitude.
+* A string which consists of longitude.
 
 ##### Methods
 split_string(str)
 
-Extracts and Returns the point in the input string.
+* Extracts and Returns the point in the input string.
 
 to_float(point)
 
-Casts the input to float and returns
+* Casts the input to float and returns
 
 to_radians(point)
 
-Casts the input to radians and returns
+* Casts the input to radians and returns
 
 #### class Distance
-Created a class Distance used to calculate distance between two points.
+* Created a class Distance used to calculate distance between two points.
 ##### Parameters
 @:param: source - Point
 
-A Point instance which consists of latitude and longitude of source.
+* A Point instance which consists of latitude and longitude of source.
     
 @:param: destination - Point
     
-A Point instance which consists of latitude and longitude of destination.
+* A Point instance which consists of latitude and longitude of destination.
 
 ##### Methods
 calculate_distance()
 
-Calculates and prints the distance between two points.
+* Calculates and prints the distance between two points.
 
 haversine(theta)
 
-Calculates and returns the squared sine(theta).
+* Calculates and returns the squared sine(theta).
